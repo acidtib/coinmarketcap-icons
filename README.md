@@ -11,6 +11,10 @@ coinmarketcap-icons is a simple Ruby script that can be used to download cryptoc
 ## Installation
 
 1. Clone or download this repository.
+```
+git clone https://github.com/acidtib/coinmarketcap-icons.git
+```
+
 2. Install the required gems by running the following command in your terminal: 
 ```sh
 bundle install
@@ -28,7 +32,6 @@ To download icons, simply run the `./bin/cli` script with the desired options. H
 
 - `--size SIZE`: The size of the icons to download. Available options are 16, 32, 64, or 128. If not specified, the default is `128`.
 - `--name NAME`: The name to use for the downloaded icons. Available options are `slug`, `rank`, `id`, or `symbol`. If not specified, the default is `slug`.
-- `-o, --output DIRECTORY`: The directory to save the downloaded icons in. If not specified, the icons will be saved in the `icons` directory in the project folder.
 - `--json`: Save a json file with the icons details `icons.json`
 
 ### Examples
