@@ -1,0 +1,21 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ethon (0.16.0)
+      ffi (>= 1.15.0)
+    ffi (1.15.5)
+    fileutils (1.7.1)
+    thor (1.2.2)
+    typhoeus (1.4.0)
+      ethon (>= 0.9.0)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  fileutils (~> 1.7)
+  thor (~> 1.2)
+  typhoeus (~> 1.4)
+
+BUNDLED WITH
+   2.4.13
